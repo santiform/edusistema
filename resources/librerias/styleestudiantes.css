@@ -1,0 +1,877 @@
+ .botondescargar {
+        display: flex;
+        justify-content: flex-start; /* Alinea el contenido a la izquierda */
+        margin-top: -1.15rem;
+    }
+
+ .botondescargar button {
+        display: flex;
+        align-items: center;     
+        font-size: 16px;   
+        background-color: transparent;
+        color: #00086B!important; /* Cambia el color de fondo a rojo */
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        color: white; /* Cambia el color del texto a blanco */
+    }
+
+    .botondescargar button span {
+        margin-right: 0px;
+    }
+
+
+
+
+.linkmateria {
+
+  font-size: 18px!important;
+  color: #006D55!important;
+  font-weight: 700;
+
+}
+
+ .divcuentas p {
+    line-height: 1!important;
+  }
+
+.textoAvance {
+
+  font-size: 19px;
+
+}
+
+.textoAvance p {
+
+  line-height: 1;
+
+}
+
+.divcarrera {
+
+  background-color: #006D55;
+  border-radius: 10px;
+  color: white;
+  font-size: 19px;
+  font-weight: 800;
+  padding: 4px;
+  padding-inline: 10px;
+  text-align: left;
+  margin-top: 1.8rem;
+
+}
+
+
+.divinputfuncion {
+
+  margin-top: 1.8rem;
+
+}
+
+
+.inputfuncion {
+
+    background-color: white!important;
+    border: 2px solid #006D55!important;
+    height: 2rem!important;
+    width: 100%!important;
+    height: 40px!important;
+    box-shadow: none!important;
+    outline: none!important;
+    color: black!important;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 13px;
+
+}
+
+
+.inputfuncion::placeholder {
+  
+  color: black!important;
+  font-weight: 700;
+
+}
+
+
+    .tabla-invisible {
+        border: none!important; /* Elimina los bordes de la tabla */
+        background: none!important; /* Elimina el fondo de la tabla */
+        color: transparent!important;
+         /* Hace el texto transparente */
+    }
+    .tabla-invisible th,
+    .tabla-invisible td {
+        border: none!important; /* Elimina los bordes de las celdas */
+        background: none!important; /* Elimina el fondo de las celdas */
+        color: black!important; /* Establece el color del texto a negro */
+        text-align: left!important;
+    }
+
+   .botoneliminar {
+        display: flex;
+        justify-content: flex-start; /* Alinea el contenido a la izquierda */
+        margin-top: -1.15rem;
+        margin-left: -0.25rem;
+    }
+
+    .botoneliminar button {
+        display: flex;
+        align-items: center;     
+        font-size: 16px;   
+        background-color: transparent;
+        color: red!important; /* Cambia el color de fondo a rojo */
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        color: white; /* Cambia el color del texto a blanco */
+    }
+
+    .botoneliminar button span {
+        margin-right: 0px;
+    }
+
+
+.borrarinsc {
+  border-radius: 15px;
+  border: 2px solid #F4F4F4;
+  max-height: 19rem;
+  max-width: 19rem;
+  color: red!important;
+  background-color: none;
+  margin-bottom: 3.5rem;  
+
+  
+}
+
+
+.borrarinsc span {
+  font-size: 25px!important;
+  margin-top: 2rem;
+  color: red;
+}
+
+.borrarinsc p {
+  margin-top: -0.6rem!important;
+  font-size: 25px!important;
+  font-weight: 400;
+  color: red
+}
+
+
+.nombremateria {
+
+  font-size: 20px;
+  color: #006D55;
+  font-weight: 700;
+
+}
+
+
+
+.profesordatos {
+
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -1.4rem;
+}
+
+
+.horariodatos {
+  font-weight: 400;
+  margin-top: -1.2rem;
+  font-size: 15px;
+}
+
+.grupo {
+  margin-top: 1rem;  
+  margin-bottom: 1rem;  
+}
+
+
+.black {
+  color: black!important;  
+} 
+
+
+.boton2 {
+  border-radius: 11px;
+  border: 2px solid transparent;
+  max-height: 200px;
+  color: #ffffff;
+  background-color: #006D55;
+  margin-top: 0.9rem!important;  
+  margin-bottom: 0.9rem!important; 
+  padding: 6px!important;
+  padding-right: 4px!important;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+
+.boton2 span {
+  margin-top: 0rem;
+}
+
+.boton2 p {
+  margin-top: -0.5rem;
+  font-size: 20x;
+  font-weight: 400;
+  color: #F4F4F4F4
+}
+
+
+.boton2:hover {
+
+  border: 2px solid #006D55;
+  background-color: #ffffff;
+  color: #006D55!important; 
+  
+}
+
+
+
+
+
+.botonfuncion {
+  border-radius: 15px;
+  border: 2px solid #F4F4F4;
+  max-height: 19rem;
+  max-width: 19rem;
+  color: #F4F4F4F4;
+  background-color: none;
+  margin-bottom: 3.5rem;  
+  
+}
+
+
+
+.botonfuncion:hover {
+
+box-shadow: 0 0 25px -5px #612220;
+
+  
+}
+
+.botonfuncion span {
+  font-size: 80px!important;
+  margin-top: 0.75rem;
+  color: #F4F4F4;
+}
+
+.botonfuncion p {
+  margin-top: 0rem;
+  font-size: 15px;
+  font-weight: 400;
+  color: #F4F4F4F4
+}
+
+
+
+
+.formularioestudiantes {
+
+  max-width: 30rem;
+  width: 100%!important;
+  background-color: #006D55;
+  font-size: 16px;
+  font-weight: 600;
+  color: #F4F4F4;
+
+  padding: 1.8rem;
+  border-radius: 11px;
+  /*box-shadow: 0 0 15px 5px #F29791;*/
+  /*margin-left: 5rem;*/
+  /*margin-top: 3.3rem;*/
+  /*margin-bottom: 1.7rem;*/
+}
+
+.botonformulario {
+  width: 100%;
+  background-color: #00432E;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+
+.botonformulario:hover {
+    background-color: #273F39;
+
+}
+
+.inputform{
+  height: 40px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 12px;
+    width: 100%!important;
+}
+
+.inputform:focus{
+
+  outline: none!important;
+}
+
+
+
+h1 {
+
+  font-size: 26px!important;
+  font-weight: 700!important;
+  color: #006D55!important;
+
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif!important;
+  background-image: url('https://emmu.edusistema.com.ar/resources/img/fondoestudiantes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -1rem!important;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.contenedormobile {
+  min-height: 667px;
+  max-height: 100vh;
+  min-width: 375px;
+  max-width: none;
+  margin: 0 auto; /* Centrar el div horizontalmente */
+  justify-content: center; /* Centrar horizontalmente elementos internos */
+  text-align: center;
+  
+  
+
+  
+}
+
+
+
+.divhoja {
+  padding-bottom: 1.2rem;
+  padding-inline: 2rem;
+  max-width: 900px;
+  min-height: 100px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 9rem;
+  margin-bottom: -0.08rem;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px!important;
+
+
+}
+
+
+.columna {
+
+  margin-top: -0.1rem!important;
+  margin-bottom: 0.5rem!important;
+  padding-top: 1rem;
+  padding-inline: 0.2rem!important;
+
+}
+
+
+.cerrar {
+
+  margin-top: 0.3rem!important;
+
+}
+
+
+.header {
+
+  background-color: #006D55; /* Color de fondo del footer, reemplaza por el que desees */
+  padding: 22px;
+  position: absolute;
+  max-width: 900px;
+  min-height: 100px;
+  margin: 0 auto;
+  top: 0;
+  left: 50;
+  margin-left: -2rem;
+  width: 100%;
+  color: #f4f4f4;
+  text-align: center;
+  margin-bottom: 90rem!important;
+  padding-bottom: 0.5rem;
+  /*border-bottom: solid 0.5px grey;*/
+
+
+}
+
+
+
+.headhoja {
+
+  max-width: 1080px!important;
+
+}
+
+
+.sepheader {
+
+  height: 2.4rem;
+
+}
+
+
+.sepfooter {
+
+  height: 13.5rem;
+
+}
+
+.footer {
+  background-color: #006D55; 
+  padding: 0;
+  position: fixed;
+  max-width: 900px;
+  min-height: 220px;
+  margin: 0 auto;
+  margin-left: -2rem;
+  margin-bottom: -1.8rem;
+  bottom: 0;
+  left: 50;
+  width: 100%;
+  color: #f4f4f4;
+  justify-content: center; /* Centrar horizontalmente elementos internos */
+  text-align: center;
+
+ 
+  box-shadow: 0px -3px 7px rgba(0, 0, 0, 0.3);
+  /*border-top: solid 0.5px grey;*/
+
+
+}
+
+
+.titulosh1 {
+
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: -1.3rem;
+  padding: 0;
+
+}
+
+.botonytexto {
+
+  vertical-align: middle;
+  font-size: 17px;
+  margin-top: -0rem!important;
+}
+
+.underline:hover {
+
+  text-decoration: underline;
+
+}
+
+
+
+
+
+/* Estilos para pantallas pequeñas (hasta 576px) */
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+  .contenedormobile {
+    min-height: 100vh; /* El div ocupará toda la altura de la pantalla */
+    max-height: none; /* Eliminamos la restricción de altura máxima */
+    min-width: 100%; /* El div ocupará todo el ancho de la pantalla */
+    max-width: 100%; /* El div no excederá el ancho de la pantalla */
+  }
+
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+.divlogin {
+  width: 30rem!important;
+  height: 32rem!important;
+  border-radius: 30px!important;
+  background-color: #EE7873!important;
+  border: none!important;
+  box-shadow: 0 0 30px 2px #F49A95;
+  padding-inline: 20px;
+  margin-left: 23rem;
+  margin-top: 13rem;
+}
+
+.divlogin p{
+
+  color: #F4F4F4!important;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.divlogin input{
+  height: 60px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+}
+
+.divlogin .remember{
+  margin-top: 0.15rem;
+  height: 15px!important;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+}
+
+.recordardatos{
+  margin-top: 2rem!important;
+  color: #F4F4F4;
+  text-align: left!important;
+  padding-left: 0.1rem;
+}
+
+
+.botonaccion {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F4F4F4;
+  background-color: #A5413F;
+}
+
+.botonaccion:hover {
+    background-color: #A32226;
+}
+
+
+
+.olvidar {
+    color: #F4F4F4;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    margin-top: 0.85rem!important;
+}
+
+.olvidar:hover {
+     text-decoration: underline;
+}
+
+
+
+
+
+.bienvenidainicio {
+  margin-top: 2.3rem;
+  margin-bottom: 3.3rem;
+  font-size: 32px;
+  color: #F4F4F4;
+  font-weight: 600;
+
+}
+
+
+
+
+.tituloseccion {
+
+  padding-left: 4.7rem!important;
+  text-align: center;
+  align-content: center;
+  padding-top: 1rem;
+  margin-bottom: 5px;
+  font-size: 40px;
+  color: #F4F4F4;
+
+}
+
+
+th {
+  background-color: #481312!important;
+  color: #F4F4F4!important;
+  font-weight: 600!important;
+  padding: 3px!important;
+  border-bottom: 1px solid #FFA5A2!important;
+  border-top: 1px solid #FFA5A2!important;
+  text-align: center!important;
+  vertical-align: middle!important;
+  font-size: 17px!important;
+  padding-top: 0.3rem!important;
+  padding-bottom: 0.3rem!important;
+  padding-inline: 0.3rem!important;
+}
+
+
+td {
+  background-color: #7B2A28!important;
+  color: #F4F4F4!important;
+  font-weight: 500!important;
+  border-bottom: 1px solid #FFA5A2!important;
+  border-top: 1px solid #FFA5A2!important;
+  text-align: center!important;
+  vertical-align: middle!important;
+  font-size: 17px!important;
+  padding-top: 0.2rem!important;
+  padding-bottom: 0.1rem!important;
+  padding-inline: 0.1rem!important;
+}
+
+
+.table-bordered td, .table-bordered th {
+  border-color: #FFA5A2 !important;
+
+}
+
+
+.material-icons2 {
+  font-family: 'Material Icons', sans-serif;
+  color: #F4F4F4;
+  font-size: 45px!important;
+
+}
+
+.material-icons-small {
+  font-family: 'Material Icons', sans-serif!important;
+  font-size: 21px!important;
+  margin-top: -2rem!important;
+  border: none;
+}
+
+
+
+.titulofuncion {
+
+  font-size: 47px;
+  color: #F4F4F4;
+  font-weight: 600;
+
+
+}
+
+.tituloconicono {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+
+}
+
+.divbotonatras {
+
+   margin-top: 2rem;
+   margin-bottom: -4.2rem;
+   margin-left: 2rem;
+}
+
+.botonatras {
+
+  font-size: 35px!important;
+
+}
+
+.barrita {
+
+  margin-top: -1.25rem;
+
+
+}
+
+
+
+
+
+
+.legajoestudiante {
+
+  width: 40vw;
+  background-color: #EE7873 ;
+  font-size: 30px;
+  color: #F4F4F4;
+  margin-left: 5rem;
+  padding: 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 0 12px 7px #F29791;
+  margin-top: 3.3rem;
+
+}
+
+.iconolenguajeestudiante {
+
+  font-size: 210px!important;
+  margin-top: -1rem;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.nombrelegajo {
+
+  color: #541817;
+  font-weight: 800;
+  margin-top: -0.8rem;
+  font-size: 29px;
+
+}
+
+
+.textolegajoestudiante {
+
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.textolegajoestudiante p {
+
+  margin-top: 1.7rem!important;
+  
+
+}
+
+
+.funcioneslegajoestudiantes {
+
+  width: 45vw;
+  position: absolute;
+  margin-top: -42.5rem;
+  margin-left: 59.5rem;
+}
+
+.diverror {
+  padding: 0.5rem;
+  margin-top: 14rem;
+  justify-content: center;
+  width: 40vw!important;
+  background-color: #7B2A28;
+  border-radius: 30px;
+  box-shadow: 0 0 25px -5px #000000;
+
+}
+
+
+.diverror p {
+  font-size: 18px;
+  color: #F4F4F4;
+  font-weight: 400;
+
+}
+
+
+
+.divcentrado {
+  display: flex;
+  justify-content: center;
+  margin-left: -6.5rem;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+.formulario button {
+
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 16px;
+
+
+}
+
+
+
+.formulario input{
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+.formulario select {
+  width: 100%;
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.alertainput {
+    text-align: center;
+    margin-top: 0.25rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: -1.1rem;
+}
+
+
+/* Estilos para el select cuando está enfocado */
+.formulario select:focus {
+  width: 100%;
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+
+}
+
+/* Estilos para el select cuando se pasa el cursor sobre él */
+.formulario select:hover {
+  border: none;
+  box-align: none;
+  background-color: #7B2A28;
+  color: #F4F4F4;
+}
+
+
+
+
+
+
+
+
+.form-group {
+
+    margin-top: 1.4rem!important;
+
+}
+
+
+.form-groupinicial {
+
+  margin-top: -0.3rem!important
+
+}

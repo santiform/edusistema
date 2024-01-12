@@ -1,0 +1,923 @@
+
+/* Estilos para pantallas pequeñas (hasta 576px) */
+@media screen and (max-width: 575px) {
+
+
+  .bienvenidainicio {
+
+    margin-top: 1.6rem!important;
+    font-size: 24px!important;
+
+  }
+
+  .fondoinicio1 {
+
+      background-size: 150%!important;
+      margin-top: 0rem!important;
+      margin-left: -2.2rem!important;
+      max-height: 200px!important;
+
+  }
+
+ .botonfuncion {
+  
+
+  margin-left: 0.8rem;
+  margin-bottom: 6rem;
+  height: 170px;
+  
+  
+}
+
+}
+
+/* Estilos para pantallas medianas (576px - 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+  .bienvenidainicio {
+
+    margin-top: -4rem!important;
+    font-size: 24px!important;
+
+  }
+
+  .fondoinicio1 {
+
+      background-size: 180%!important;
+      margin-top: -6.58rem!important;
+      margin-left: -2.2rem!important;
+
+  }
+  .botonfuncion {
+  margin-left: 0.8rem;
+  margin-bottom: 6rem;
+  height: 170px;
+  
+}
+}
+
+/* Estilos para pantallas grandes (768px - 992px) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .md-4 {
+
+    padding-left: 1.7rem;
+
+  }
+
+  .botonfuncion {
+
+  margin-bottom: 6rem;
+  height: 170px!important;
+
+}
+
+  .botonfuncion span {
+   margin-top: 5rem!important;
+  font-size: 2px!important;
+
+}
+
+.botonfuncion p {
+  margin-top: 2rem!important;
+  font-size: 20px;
+
+}
+
+}
+
+/* Estilos para pantallas extra grandes (más de 992px) */
+@media screen and (min-width: 992px) {
+
+  .botonfuncion {
+
+  margin-bottom: 6rem;
+  
+}
+
+}
+
+
+
+
+// X-Large devices large desktops, 1200px and up
+@media (min-width: 1200px) { 
+
+  
+
+ }
+
+// XX-Large devices larger desktops, 1400px and up
+@media (min-width: 1400px) { ... }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.center {
+
+  text-align: center;
+  align-content: center;
+
+
+
+}
+
+.img {
+
+  max-width: 100%;
+
+}
+
+
+.imgcenter {
+
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+h1 {
+  font-size: ;
+  font-weight: 600 !important;
+  
+}
+
+
+
+.panel-izquierdo {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #E45D58;
+  width: 80px!important;
+  padding-top: 12px!important;
+  margin-top: -1.5rem;
+  z-index: 1;
+  box-shadow: -2px 0 15px rgba(228, 93, 88, 0.9);
+
+
+} 
+
+.list-group {
+  position: absolute;!important;
+  top: 0!important;
+  left: 0!important;
+  bottom: 0!important;
+  width: 235px!important;
+  background-color: #E45D58!important;
+  padding: 60px 8px 12px!important;
+  border-radius: 0!important;
+  z-index: 3!important;
+  box-shadow: -2px 0 15px rgba(228, 93, 88, 0.9);
+
+}
+
+.list-group2 {
+  position: relative;!important;
+  top: 0!important;
+  left: 0!important;
+  bottom: 0!important;
+  width: 350px!important;
+  background-color: #E45D58!important;
+  padding: 60px 8px 8px!important;
+  border-radius: 0!important;
+  z-index: 2!important;
+
+}
+
+.list-group3 {
+  position: relative!important;
+  top: 0!important;
+  left: 0!important;
+  bottom: 0!important;
+  width: 65px!important;
+  background-color: #E45D58!important;
+  padding: 8px 8px!important;
+  border-radius: 0!important;
+  z-index: 4!important;
+
+}
+
+.list-group-item {
+  min-width: 50px!important;
+  margin: 0!important;
+  background-color: transparent !important;
+  border: none!important;
+  color: #612220!important;
+  padding: 2px 0.5px!important;
+  padding-top: 0.15rem!important;
+  margin-top: 17px!important;
+  margin-left: 2px!important;
+
+}
+
+
+
+
+
+.list-group-item:hover span{
+  color: #612220 !important;
+
+}
+
+
+.hidden {
+  display: none!important;
+  position: fixed!important;
+  width: 200px!important;
+    
+}
+
+.boton {
+  background-color: transparent!important;
+  border: none!important;
+}
+
+
+
+
+.fondoinicio1 {
+  
+  background-image: url('https://emmu.edusistema.com.ar/resources/img/imginicio.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 95.8vw;
+  height: 495px;
+  margin-left: -0.75rem;
+  margin-top: -1rem;
+
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif!important;
+  background-image: url('https://emmu.edusistema.com.ar/resources/img/backgroundadm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+
+.divlogin {
+  width: 30rem!important;
+  height: 38rem!important;
+  border-radius: 30px!important;
+  background-color: black!important;
+  border: none!important;
+  box-shadow: 0 0 5px 1px #ffffff;
+  padding-inline: 20px!important;
+  padding-top: 20px!important;
+  padding-bottom: 30px!important;
+  margin-top: 1.4rem!important;
+}
+
+
+
+.divlogin p {
+
+  color: #F4F4F4!important;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.divlogin input{
+  height: 60px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+}
+
+.divlogin .remember{
+  margin-top: 0.15rem;
+  height: 15px!important;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+}
+
+
+
+.botonaccionlogin {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #313131;}
+
+.botonaccionlogin:hover {
+    background-color: #d2d2d2;
+    color: #000000;
+}
+
+
+.recordardatos{
+  margin-top: 0.5rem!important;
+  color: #F4F4F4;
+  text-align: left!important;
+  padding-left: 0.1rem;
+}
+
+
+.botonaccion {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F4F4F4;
+  background-color: #A5413F;
+}
+
+.botonaccion:hover {
+    background-color: #A32226;
+}
+
+
+
+.olvidar {
+    color: #F4F4F4;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    margin-top: 0.85rem!important;
+}
+
+.olvidar:hover {
+     text-decoration: underline;
+}
+
+
+
+
+
+.bienvenidainicio {
+  margin-top: 2.3rem;
+  margin-bottom: 3.3rem;
+  font-size: 32px;
+  color: #F4F4F4;
+  font-weight: 600;
+
+}
+
+.botonfuncion {
+  border-radius: 15px;
+  border: 2px solid #F4F4F4;
+  max-height: 190px;
+  max-width: 190px;
+  color: #F4F4F4F4;
+  background-color: #E45D58;
+  
+  
+}
+
+
+
+.botonfuncion:hover {
+
+box-shadow: 0 0 25px -5px #612220;
+
+  
+}
+
+.botonfuncion span {
+  font-size: 130px!important;
+  margin-top: 6.05rem;
+  color: #F4F4F4;
+}
+
+.botonfuncion p {
+  margin-top: 3rem;
+  font-size: 21px;
+  font-weight: 400;
+  color: #F4F4F4F4;
+}
+
+
+.tituloseccion {
+
+  padding-left: 4.7rem!important;
+  text-align: center;
+  align-content: center;
+  padding-top: 1rem;
+  margin-bottom: 5px;
+  font-size: 40px;
+  color: #F4F4F4;
+
+}
+
+
+th {
+  background-color: #481312!important;
+  color: #F4F4F4!important;
+  font-weight: 600!important;
+  padding: 3px!important;
+  border-bottom: 1px solid #FFA5A2!important;
+  border-top: 1px solid #FFA5A2!important;
+  text-align: center!important;
+  vertical-align: middle!important;
+  font-size: 17px!important;
+  padding-top: 0.3rem!important;
+  padding-bottom: 0.3rem!important;
+  padding-inline: 0.3rem!important;
+}
+
+
+td {
+  background-color: #7B2A28!important;
+  color: #F4F4F4!important;
+  font-weight: 500!important;
+  border-bottom: 1px solid #FFA5A2!important;
+  border-top: 1px solid #FFA5A2!important;
+  text-align: center!important;
+  vertical-align: middle!important;
+  font-size: 17px!important;
+  padding-top: 0.2rem!important;
+  padding-bottom: 0.1rem!important;
+  padding-inline: 0.1rem!important;
+}
+
+
+.table-bordered td, .table-bordered th {
+  border-color: #FFA5A2 !important;
+
+}
+
+
+.material-icons2 {
+  font-family: 'Material Icons', sans-serif;
+  color: #F4F4F4;
+  font-size: 45px!important;
+
+}
+
+.material-icons-small {
+  font-family: 'Material Icons', sans-serif!important;
+  color: #F4F4F4!important;
+  font-size: 21px!important;
+  margin-top: -2rem!important;
+}
+
+.botoneliminar {
+
+  margin-left: -0.5rem;
+  margin-right: -0.4rem;
+
+}
+
+
+.titulofuncion {
+
+  font-size: 40px;
+  color: #F4F4F4;
+  font-weight: 600;
+
+
+}
+
+.tituloconicono {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+
+}
+
+.divbotonatras {
+
+   margin-top: 2rem;
+   margin-bottom: -4.2rem;
+   margin-left: 2rem;
+}
+
+.botonatras {
+
+  font-size: 35px!important;
+
+}
+
+.barrita {
+
+  margin-top: -1.25rem;
+
+
+}
+
+
+.divinputfuncion {
+
+    margin-top: -1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+
+.inputfuncion {
+
+    background-color: #D7645B!important;
+    border: none!important;
+    height: 2rem!important;
+    width: 600px!important;
+    height: 50px!important;
+    box-shadow: none!important;
+    outline: none!important;
+    color: #F4F4F4!important;
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 40px;
+
+}
+
+
+.inputfuncion::placeholder {
+  
+  color: #F4F4F4!important;
+
+}
+
+
+
+.legajoestudiante {
+
+  width: 40vw;
+  background-color: #EE7873 ;
+  font-size: 30px;
+  color: #F4F4F4;
+  margin-left: 4rem;
+  padding: 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 0 12px 7px #F29791;
+  margin-top: 0rem;
+
+}
+
+.iconolenguajeestudiante {
+
+  font-size: 210px!important;
+  margin-top: -1rem;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.nombrelegajo {
+
+  color: #541817;
+  font-weight: 800;
+  margin-top: -1.8rem;
+  font-size: 27px;
+
+}
+
+
+.textolegajoestudiante {
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+.textolegajoestudiante p {
+
+  margin-top: 0.8rem!important;
+
+}
+
+
+.funcioneslegajoestudiantes {
+
+  width: 45vw;
+  position: absolute;
+  margin-top: -42.5rem;
+  margin-left: 59.5rem;
+}
+
+.diverror {
+  padding: 0.5rem;
+  margin-top: 14rem;
+  justify-content: center;
+  width: 40vw!important;
+  background-color: #7B2A28;
+  border-radius: 30px;
+  box-shadow: 0 0 25px -5px #000000;
+
+}
+
+
+.diverror p {
+  font-size: 18px;
+  color: #F4F4F4;
+  font-weight: 400;
+
+}
+
+
+
+.divcentrado {
+  display: flex;
+  justify-content: center;
+  margin-left: -6.5rem;
+  overflow-x: hidden;
+}
+
+
+.formulario {
+
+  width: 29vw;
+  background-color: #EE7873;
+  font-size: 16px;
+  font-weight: 500;
+  color: #F4F4F4;
+  margin-left: 5rem;
+  padding: 1.8rem;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 5px #F29791;
+  margin-top: 3.3rem;
+  margin-bottom: 1.7rem;
+
+
+}
+
+
+
+
+.formulario button {
+
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 16px;
+
+
+}
+
+
+
+.formulario input{
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+.formulario select {
+  width: 100%;
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.alertainput {
+    text-align: center;
+    margin-top: 0.25rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: -1.1rem;
+}
+
+
+/* Estilos para el select cuando está enfocado */
+.formulario select:focus {
+  width: 100%;
+  height: 35px;
+  border:none!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+
+}
+
+/* Estilos para el select cuando se pasa el cursor sobre él */
+.formulario select:hover {
+  border: none;
+  box-align: none;
+  background-color: #7B2A28;
+  color: #F4F4F4;
+}
+
+
+.formulario a:hover {
+  text-decoration: none!important;
+  color: #F4F4F4;
+  
+}
+
+
+.botonformulario {
+   width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem;
+  font-size: 24px;
+  font-weight: 500;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  color: #F4F4F4;
+  background-color: #A5413F;
+  margin-top: 1.7rem!important;
+
+}
+
+
+
+
+.botonformulario:hover {
+    background-color: #A32226;
+    text-decoration: none;
+}
+
+
+
+.form-group {
+
+    margin-top: 1.4rem!important;
+
+}
+
+
+.form-groupinicial {
+
+  margin-top: -0.3rem!important
+
+}
+
+
+
+.card-2 {
+  height: 280px;
+  width: 310px;
+  background-color: #914745;
+  padding: 10px;
+  border: 4px solid white;
+  margin-bottom: 90px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.card-title-2 {
+
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+
+}
+
+
+.card-text-2 {
+
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+
+}
+
+
+
+
+
+.card-3 {
+  height: 280px;
+  width: 410px;
+  background-color: #914745;
+
+  border: 4px solid white;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.card-title-3 {
+
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+
+}
+
+
+.card-text-3 {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 70px;
+  font-weight: 400;
+  color: white;
+
+}
+
+
+
+.card-text-4 {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+
+}
+
+
+
+.card-title-4 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+
+}
+
+
+
+
+
+.card-4 {
+  height: 280px;
+  background-color: #914745;
+
+  border: 4px solid white;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+
+.card-5 {
+  height: 160px;
+  background-color: #914745;
+
+  border: 4px solid white;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+
+.card-6 {
+  height: 240px;
+  background-color: #914745;
+
+  border: 4px solid white;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+
+.card-title-6 {
+
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+
+}
