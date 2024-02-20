@@ -77,7 +77,31 @@ use Carbon\Carbon;
         </div>
     </form>
 
-   
+
+
+<div style="height: 18rem;"></div>
+
+
+
+<div class="formularioestudiantes" style="padding-top: -2rem;">
+
+
+        <div class="divcentrado" style="margin-top: -2.3rem;">
+            <div class="formulario" style="padding-top: -2rem;">
+
+Para realizar una inscripción forzada al sistema, salteando el régimen de correlatividades, podés usar la siguiente función:
+
+<div style="height: 2rem;"></div>
+
+<a href="{{ route('inscripciones-materias.add.directo', ['dni' => $estudiante->dni]) }}"  class="botonformulario">
+    <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
+        build_circle
+    </span>
+    <span  >Inscripción forzada</span>
+</a>   
+
+</div>
+</div>
 </div>
 
 

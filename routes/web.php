@@ -169,6 +169,17 @@ Route::group(['middleware' => ['auth']], function () {
 
 
 
+                Route::get('/inscripciones-materias-agregar-directo/{dni}/', [EstudianteController::class, 'inscripcionMateriasAgregarDirecto'])->name('inscripciones-materias.add.directo')->middleware('auth');
+
+                Route::post('/inscripciones-materias-agregar-directo/enviar/', [EstudianteController::class, 'inscripcionMateriasAgregarEnviarDirecto'])->name('inscripciones-materias.add.enviar.directo')->middleware('auth');
+
+
+
+
+
+
+
+
                 Route::delete('/inscripciones-examenes/{idEstudiante}/{idInscripcion}', [EstudianteController::class, 'inscripcionExamenesEliminar'])->name('inscripciones-examenes.destroy')->middleware('auth');
 
 
@@ -189,6 +200,13 @@ Route::group(['middleware' => ['auth']], function () {
 
 
 
+
+
+
+
+                Route::get('/adm2023divox/profesores-seccion', function () {
+                    return view('adm2023divox.profesoresindex');
+                })->middleware('auth')->name('profesores-seccion');                         
 
 
                 Route::resource('adm2023divox/profesores',App\Http\Controllers\ProfesoreController::class)->middleware('auth');
@@ -255,8 +273,22 @@ Route::group(['middleware' => ['auth']], function () {
 
 
 
+
                 Route::get('/adm2023divox/administracion-seccion', function () {
                     return view('adm2023divox.administracion-seccion.index');
+                })->middleware('auth');
+
+
+                Route::get('/adm2023divox/administracion/documentos-institucionales', function () {
+                    return view('adm2023divox.administracion-seccion.doc-institucionales');
+                })->middleware('auth');
+
+                Route::get('/adm2023divox/administracion/emails', function () {
+                    return view('adm2023divox.administracion-seccion.emails');
+                })->middleware('auth');
+
+                Route::get('/adm2023divox/administracion/redes-sociales', function () {
+                    return view('adm2023divox.administracion-seccion.redes');
                 })->middleware('auth');
 
 
@@ -374,7 +406,10 @@ Route::group(['middleware' => ['auth']], function () {
                 
                 Route::get('/adm2023divox/estudiantes/calificaciones/ver', function () {
                     return view('adm2023divox.estudiantes.calificacionver');
-                })->middleware('auth')->name('calificacionVer2');                         
+                })->middleware('auth')->name('calificacionVer2'); 
+
+
+                Route::delete('adm2023divox/estudiantes/calificaciones/{id}/eliminar', 'App\Http\Controllers\FormController@calificacionEliminar')->middleware('auth')->name('calificacionEliminar');
 
 
                 });

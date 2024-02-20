@@ -14,9 +14,10 @@
 
     <link rel="stylesheet" type="text/css" href="https://emmu.edusistema.com.ar/resources/librerias/style.css">
 
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
       
-
+    <link rel="icon" type="image/webp" href="https://emmu.edusistema.com.ar/resources/img/logo.webp">
+  
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
@@ -107,7 +108,7 @@
 
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores" class="list-group-item">
+        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -254,7 +255,7 @@
       
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores" class="list-group-item">
+        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 0.05rem">
 

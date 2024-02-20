@@ -1336,4 +1336,126 @@ public function inscripcionExamenesAgregarEnviarDirecto(Request $request)
 
 
 
+
+
+
+
+
+public function inscripcionMateriasAgregarDirecto(Request $request, $dni)
+{
+    $estudiante = DB::table('estudiantes')
+        ->where('dni', $dni)
+        ->first(); 
+
+    // Obtener la carrera del estudiante
+    $carreraOld = DB::table('estudiantes')
+        ->where('dni', $dni)
+        ->select('carrera')
+        ->first();
+
+    $carrera = $carreraOld->carrera;
+
+    // Obtener las materias desde la tabla materias_x_carreras, excluyendo las aprobadas
+    $materiasPorCarrera = DB::table('materias_x_carreras')
+        ->where('id_carrera', $carrera)
+        ->whereNotIn('id_materia', function ($query) use ($dni) {
+            $query->from('calificaciones')
+                ->where('dni', $dni)
+                ->where('estado', 'APROBADO')
+                ->select('id_materia'); // Seleccionar solo la columna id_materia
+        })
+        ->pluck('id_materia')
+        ->toArray();
+
+     $catedrasDisponibles = DB::table('catedras')
+        ->whereIn('id_materia', $materiasPorCarrera)
+        ->where('cupos', '>', -1)
+        ->join('materias', 'catedras.id_materia', '=', 'materias.id')
+        ->join('profesores', 'catedras.dni_profesor', '=', 'profesores.dni')
+        ->select(
+            'catedras.id',
+            'catedras.aula',
+            'catedras.aula_dia2',
+            'catedras.dia1',
+            'catedras.hora_comienzo_dia1',
+            'catedras.hora_finalizacion_dia1',
+            'catedras.dia2',
+            'catedras.hora_comienzo_dia2',
+            'catedras.hora_finalizacion_dia2',
+            'materias.id as id_materia',
+            'materias.nombre_materia as nombremateria',
+            'profesores.apellido as apellido',
+            'profesores.nombre as nombre'
+        )
+        ->orderBy('nombremateria')
+        ->get();
+
+    return view('adm2023divox.estudiante.inscripcionmateriasagregarDirecto', compact('catedrasDisponibles', 'estudiante'));
+}
+
+
+
+public function inscripcionMateriasAgregarEnviarDirecto(Request $request)
+{
+        $dni = $request->input('dni');
+
+        $condicion = $request->input('condicion');
+
+        $idEstudiante = DB::table('estudiantes')
+            ->where('dni', $dni)
+            ->select('id')
+            ->first();
+
+        // Esto obtendrá el valor seleccionado del formulario, que será "idCatedra|idMateria"
+        $idCatedra = $request->input('catedra'); 
+
+
+        $idMateriaOld = DB::table('catedras')
+                ->select('id_materia')
+                ->where('id', '=', $idCatedra)
+                ->first();
+
+
+        $idMateria = $idMateriaOld->id_materia;
+        
+
+        // Consulta para verificar si el estudiante ya está inscrito en la misma materia
+        $inscripcionExistente = DB::table('inscripciones_materias')
+            ->join('catedras', 'inscripciones_materias.id_catedra', '=', 'catedras.id')
+            ->where('inscripciones_materias.dni', $dni)
+            ->where('catedras.id_materia', $idMateria)
+            ->exists();
+
+        if ($inscripcionExistente) {
+            // El estudiante ya está inscrito en ese examen
+            return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('yaInscripto', 'ok');
+        } 
+
+
+                    // Consulta para insertar los datos utilizando el Query Builder
+                    DB::table('inscripciones_materias')->insert([
+                        'dni' => $dni,
+                        'id_catedra' => $idCatedra,
+                        'condicion' => $condicion,
+                        'created_at' => now(),
+                    ]);
+                  
+
+           return redirect()->route('adm2023divox.estudiante.inscripcionmaterias', ['id' => $idEstudiante->id])->with('inscValidada', 'ok');
+                
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
 }

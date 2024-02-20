@@ -677,10 +677,78 @@ public function calificacionVer($id)
         $calificacion->nota_final_letras = 'Nota no válida';
     }
 
-
-
     return view('adm2023divox.estudiante.calificacionver', compact('calificacion','estudiante')); 
 }
+
+
+
+
+
+public function calificacionEliminar($id)
+{
+    // Primero, obtenemos la calificación que queremos eliminar
+    $calificacion = DB::table('calificaciones')->where('id', $id)->first();
+
+    DB::table('calificaciones')->where('id', $id)->delete();
+
+    $dniEstudiante = $calificacion->dni;
+
+    $estudiante = DB::table('estudiantes')
+    ->where('dni', $dniEstudiante)
+    ->first();
+
+    $id = $estudiante->id;
+
+
+    $carrera = DB::table('estudiantes')
+        ->where('dni', $dniEstudiante)
+        ->value('carrera');
+
+    $nombreCarrera = DB::table('carreras')
+        ->where('id', $carrera)
+        ->value('nombre_carrera');
+
+    // Obtener las materias de la carrera
+    $materiasCarrera = DB::table('materias_x_carreras')
+        ->where('id_carrera', $carrera)
+        ->pluck('id_materia');
+
+    // Obtener las calificaciones del estudiante en las materias de la carrera
+    $calificaciones = DB::table('calificaciones')
+        ->join('materias', 'calificaciones.id_materia', '=', 'materias.id')
+        ->whereIn('calificaciones.id_materia', $materiasCarrera)
+        ->where('calificaciones.dni', $dniEstudiante)
+        ->select('calificaciones.*', 'materias.nombre_materia as nombre_materia')
+        ->get();
+
+    foreach ($calificaciones as $calificacion) {
+        if (is_numeric($calificacion->nota_cuatri1)) {
+            $calificacion->nota_cuatri1_letras = ConversionNotas::notaEnLetras($calificacion->nota_cuatri1);
+        } else {
+            $calificacion->nota_cuatri1_letras = 'Nota no válida';
+        }
+
+        if (is_numeric($calificacion->nota_cuatri2)) {
+            $calificacion->nota_cuatri2_letras = ConversionNotas::notaEnLetras($calificacion->nota_cuatri2);
+        } else {
+            $calificacion->nota_cuatri2_letras = 'Nota no válida';
+        }
+
+        if (is_numeric($calificacion->nota_final)) {
+            $calificacion->nota_final_letras = ConversionNotas::notaEnLetras($calificacion->nota_final);
+        } else {
+            $calificacion->nota_final_letras = 'Nota no válida';
+        }
+    }
+
+        
+    return view('adm2023divox.estudiante.calificaciones', compact('id', 'estudiante',
+        'calificaciones', 'nombreCarrera'));
+
+}
+
+
+
 
 
 
@@ -836,6 +904,16 @@ public function datosSaludDocentes(Request $request) {
     return redirect()->route('index.docentes')->with('datosSaludCompletos', 'ok');
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

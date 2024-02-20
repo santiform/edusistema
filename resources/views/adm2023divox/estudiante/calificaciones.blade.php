@@ -92,7 +92,7 @@ use Carbon\Carbon;
                           
 
                                             <td>
-                                                <form style="margin-top: 0.1rem" class="alerta-eliminar" action="" method="POST">
+                                                <form style="margin-top: 0.1rem" class="alerta-eliminar" action="{{ route('calificacionEliminar', $calificacion->id) }}" method="POST">
 
                                                     @if ($calificacion && $calificacion->id)
                                                         <a style="text-decoration: none!important" href="{{ route('calificacionVer1', $calificacion->id) }}">
@@ -202,6 +202,9 @@ $(document).ready(function(){
           showConfirmButton: false,
           timer: 2500
         })
+
+
+
 
      </script>
 

@@ -20,6 +20,30 @@ body {
     overflow-x: hidden;
 }
 
+                    .boton2 {
+                    min-height: 160px;
+                    min-width: 160px;
+                    margin-inline: 3.4rem;
+                    margin-top: 0.4rem;
+                    margin-bottom: 0.4rem;
+                    font-size: 1.4rem;
+                        }
+
+
+                        .grow-div {
+                          /* Estilos normales del div */
+
+                          margin-top: 60px;
+                          width: 210px;
+                        }
+
+                        .grow-div:hover {
+                          /* Estilos cuando el cursor pasa sobre el div */
+                          transform: scale(1.1); /* Aplica un escalamiento del 110% */
+                          transition: transform 0.4s ease-in-out; /* Añade una transición suave de 0.2 segundos */
+
+                        }
+                        
 </style>
 
 
@@ -27,7 +51,7 @@ body {
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/">
+                <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores-seccion">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
