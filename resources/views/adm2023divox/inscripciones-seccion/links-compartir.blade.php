@@ -33,7 +33,7 @@
 </style>
 
  <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion">
+                <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -69,7 +69,7 @@
 
                                         <tr>                         
                                             <td>Reinscripciones regulares para 2024</td>
-                                            <td><a href="https://emmu.edusistema.com.ar/formulario" target="blank">https://emmu.edusistema.com.ar/formulario</a></td>
+                                            <td><a href="https://localhost/edusistema/public/formulario" target="blank">https://localhost/edusistema/public/formulario</a></td>
                                          
                                         </tr>
 

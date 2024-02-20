@@ -22,7 +22,7 @@
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/">
+                <a href="https://localhost/edusistema/public/adm2023divox/">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -47,7 +47,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 "> 
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/profesores" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       reorder
                     </span>

@@ -3,7 +3,7 @@
 <center>
     <br>
 
-    <a class="botonformulario" href="https://emmu.edusistema.com.ar/password/reset">
+    <a class="botonformulario" href="https://localhost/edusistema/public/password/reset">
                 <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
                     key
                 </span>
@@ -12,7 +12,7 @@
 
     <br><br><br>
 
-    <a class="botonformulario" href="https://emmu.edusistema.com.ar/estudiantes/inscripciones/reinscripciones/datos-de-salud">
+    <a class="botonformulario" href="https://localhost/edusistema/public/estudiantes/inscripciones/reinscripciones/datos-de-salud">
                 <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
                     health_and_safety
                 </span>
@@ -22,7 +22,7 @@
     <br><br><br>
 
     @if ($edad === "menor")    
-    <a class="botonformulario" href="https://emmu.edusistema.com.ar/estudiantes/inscripciones/reinscripciones/retiro-de-menores">
+    <a class="botonformulario" href="https://localhost/edusistema/public/estudiantes/inscripciones/reinscripciones/retiro-de-menores">
                 <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
                     diversity_3
                 </span>

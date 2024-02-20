@@ -37,7 +37,7 @@ class HomeController extends Controller
 
         
         if ($tipodeusuario === 'profesor')  {
-            return view ('profesores.index');
+            return view ('docentes.index');
         }
 
     }

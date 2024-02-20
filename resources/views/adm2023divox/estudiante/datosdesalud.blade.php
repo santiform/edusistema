@@ -29,7 +29,7 @@
 
 
  <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes/{{ $estudiante->id }}">
+                <a href="https://localhost/edusistema/public/adm2023divox/estudiantes/{{ $estudiante->id }}">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>

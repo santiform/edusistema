@@ -79,7 +79,7 @@ use Carbon\Carbon;
 ?>
 
 <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/public/adm2023divox/calificaciones-a-acta-volante">
+                <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-a-acta-volante">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>

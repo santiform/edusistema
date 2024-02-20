@@ -27,7 +27,7 @@
     <div class="col-sm-0 col-md-0 col-lg-1 col-xl-1 col-xxl-l"></div>
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2  "> <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion-seccion" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion-seccion" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       computer
                     </span>
@@ -37,7 +37,7 @@
      </div>
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2"> <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/estudiantes" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       local_library
                     </span>
@@ -48,7 +48,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/profesores" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       school
                     </span>
@@ -59,7 +59,7 @@
 
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2"><div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-seccion" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-seccion" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       checklist
                     </span>
@@ -70,7 +70,7 @@
 
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2"><div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       text_snippet
                     </span>

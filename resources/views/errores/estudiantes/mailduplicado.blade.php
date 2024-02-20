@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" type="text/css" href="https://emmu.edusistema.com.ar/resources/librerias/styleestudiantes.css">
+  <link rel="stylesheet" type="text/css" href="https://localhost/edusistema/public/resources/librerias/styleestudiantes.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
       
@@ -41,7 +41,7 @@
         <div class="container" style="padding-bottom: -0.8rem;"  >
 
 
-                <div class="col titulosh1" style="font-size: 24px!important; font-weight: 600!important"  ><a href="https://emmu.edusistema.com.ar/estudiantes" >EduSistema | Estudiantes</a></div>
+                <div class="col titulosh1" style="font-size: 24px!important; font-weight: 600!important"  ><a href="https://localhost/edusistema/public/estudiantes" >EduSistema | Estudiantes</a></div>
 
 
         </div>      
@@ -61,7 +61,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://emmu.edusistema.com.ar/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/public/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 </body>
 </html>

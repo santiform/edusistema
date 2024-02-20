@@ -3,7 +3,7 @@
 <center>
     <br>
 
-    <a class="botonformulario" href="https://emmu.edusistema.com.ar/password/reset">
+    <a class="botonformulario" href="https://localhost/edusistema/public/password/reset">
                 <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
                     key
                 </span>
@@ -12,7 +12,7 @@
 
     <br><br><br>
 
-    <a class="botonformulario" href="https://emmu.edusistema.com.ar/docentes/datos-de-salud">
+    <a class="botonformulario" href="https://localhost/edusistema/public/docentes/datos-de-salud">
                 <span style="vertical-align: middle; margin-top: -0.2rem;" class="material-icons">
                     health_and_safety
                 </span>

@@ -12,11 +12,11 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" type="text/css" href="https://emmu.edusistema.com.ar/resources/librerias/style.css">
+    <link rel="stylesheet" type="text/css" href="https://localhost/edusistema/resources/librerias/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
       
-    <link rel="icon" type="image/webp" href="https://emmu.edusistema.com.ar/resources/img/logo.webp">
+    <link rel="icon" type="image/webp" href="https://localhost/edusistema/resources/img/logo.webp">
   
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -62,7 +62,7 @@
       <div class="list-group2" style="padding:0.2rem; margin-top: -60px !important;">
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 2rem; ">
 
@@ -77,7 +77,7 @@
         </a>
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion-seccion" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/administracion-seccion" class="list-group-item">
 
           <button class="btn " style="padding: 0.5rem;">
 
@@ -92,7 +92,7 @@
         
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/estudiantes" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -108,7 +108,7 @@
 
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores-seccion" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/profesores-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -123,7 +123,7 @@
         </a>
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-seccion" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -139,7 +139,7 @@
 
 
 
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion" class="list-group-item">
+                <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -170,7 +170,7 @@
         @guest
         @else
 
-          <a href="https://emmu.edusistema.com.ar/adm2023divox/logout" class="list-group-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+          <a href="https://localhost/edusistema/public/adm2023divox/logout" class="list-group-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 9.3rem; margin-left: -0.25rem;">
 
@@ -209,7 +209,7 @@
 
 <div class="list-group hidden" style="padding:0.2rem; padding-top: 7.8rem!important;">
         
-         <a href="https://emmu.edusistema.com.ar/adm2023divox/" class="list-group-item">
+         <a href="https://localhost/edusistema/public/adm2023divox/" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; ">
 
@@ -224,7 +224,7 @@
         </a>
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion-seccion" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/administracion-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem;">
 
@@ -239,7 +239,7 @@
         </a>
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/estudiantes" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; margin-top: -0.05rem">
 
@@ -255,7 +255,7 @@
       
 
 
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/profesores-seccion" class="list-group-item">
+        <a href="https://localhost/edusistema/public/adm2023divox/profesores-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 0.05rem">
 
@@ -270,7 +270,7 @@
         </a>
 
 
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-seccion" class="list-group-item">
+                <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 0.02rem">
 
@@ -286,7 +286,7 @@
 
 
 
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion" class="list-group-item">
+                <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion" class="list-group-item">
 
           <button class="btn" style="padding: 0.5rem; ">
               
@@ -320,7 +320,7 @@
         @guest
         @else
 
-          <a href="https://emmu.edusistema.com.ar/adm2023divox/logout"  class="list-group-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+          <a href="https://localhost/edusistema/public/adm2023divox/logout"  class="list-group-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
 
           <button class="btn" style="padding: 0.5rem; margin-top: 9.3rem; margin-left: -1.6rem;">
 
@@ -398,7 +398,7 @@ $(document).ready(function() {
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://emmu.edusistema.com.ar/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/public/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 
 

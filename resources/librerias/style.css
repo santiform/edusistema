@@ -244,7 +244,7 @@ h1 {
 
 .fondoinicio1 {
   
-  background-image: url('https://emmu.edusistema.com.ar/resources/img/imginicio.png');
+  background-image: url('https://localhost/edusistema/resources/img/imginicio.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -258,7 +258,7 @@ h1 {
 
 body {
   font-family: 'Montserrat', sans-serif!important;
-  background-image: url('https://emmu.edusistema.com.ar/resources/img/backgroundadm.jpg');
+  background-image: url('https://localhost/edusistema/resources/img/backgroundadm.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

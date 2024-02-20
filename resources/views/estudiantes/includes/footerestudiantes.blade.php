@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-4 mx-auto">
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-          <a href="https://emmu.edusistema.com.ar/estudiantes/inscripciones" class="btn">
+          <a href="https://localhost/edusistema/public/estudiantes/inscripciones" class="btn">
             <span class="material-icons d-flex flex-column align-items-center justify-content-center">
               checklist
             </span>
@@ -18,7 +18,7 @@
 
       <div class="col-4 mx-auto">
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-          <a href="https://emmu.edusistema.com.ar/estudiantes/historial-academico" class="btn">
+          <a href="https://localhost/edusistema/public/estudiantes/historial-academico" class="btn">
             <span class="material-icons d-flex flex-column align-items-center justify-content-center">
               history
             </span>
@@ -29,7 +29,7 @@
 
       <div class="col-4 mx-auto">
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-          <a href="https://emmu.edusistema.com.ar/estudiantes/informacion-academica" class="btn">
+          <a href="https://localhost/edusistema/public/estudiantes/informacion-academica" class="btn">
             <span class="material-icons d-flex flex-column align-items-center justify-content-center">
               info
             </span>
@@ -44,7 +44,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://emmu.edusistema.com.ar/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 <!-- con este script de abajo hacemos que no se peudan recibir minúsculas ni letras con tilde, utilizando jquery -->
 <script>

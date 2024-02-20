@@ -22,7 +22,7 @@
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/">
+                <a href="https://localhost/edusistema/public/adm2023divox/">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -47,7 +47,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 "> 
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/carreras" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/carreras" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       format_list_bulleted
                     </span>
@@ -58,7 +58,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/materias" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/materias" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       format_list_numbered
                     </span>
@@ -69,7 +69,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/materias-por-carreras" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/materias-por-carreras" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       list_alt
                     </span>
@@ -80,7 +80,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/catedras" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/catedras" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       square_foot
                     </span>
@@ -92,7 +92,7 @@
   
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/examenes-fechas" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/examenes-fechas" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       event
                     </span>
@@ -174,7 +174,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion/documentos-institucionales" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion/documentos-institucionales" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       folder
                     </span>
@@ -213,7 +213,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 "> 
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion/emails" target="blank" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion/emails" target="blank" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       contact_mail
                     </span>
@@ -224,7 +224,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion/redes-sociales" target="blank" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion/redes-sociales" target="blank" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       phone_android
                     </span>

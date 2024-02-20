@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
-	<link rel="icon" type="image/webp" href="https://emmu.edusistema.com.ar/resources/img/logo.webp">
+	<link rel="icon" type="image/webp" href="https://localhost/edusistema/resources/img/logo.webp">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" type="text/css" href="https://emmu.edusistema.com.ar/resources/librerias/styledocentes.css">
+  <link rel="stylesheet" type="text/css" href="https://localhost/edusistema/resources/librerias/styledocentes.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
       
@@ -43,7 +43,7 @@
 		<div class="container" style="padding-bottom: -0.8rem;"  >
 
 
-				<div class="col titulosh1" style="font-size: 24px!important; font-weight: 600!important"  ><a href="https://emmu.edusistema.com.ar/docentes" >EduSistema | Docentes</a></div>
+				<div class="col titulosh1" style="font-size: 24px!important; font-weight: 600!important"  ><a href="https://localhost/edusistema/public/docentes" >EduSistema | Docentes</a></div>
 
 
 				<div class="col columna botonytexto" style="margin-top:-1rem!important"  >
@@ -60,7 +60,7 @@
 
 				<div class="col botonytexto" > 
 
-						<a href="https://emmu.edusistema.com.ar/docentes/mi-perfil" >
+						<a href="https://localhost/edusistema/public/docentes/mi-perfil" >
 
         
             <span class="material-icons" style="vertical-align: middle;">
@@ -82,7 +82,7 @@
 					@guest
         	@else
 
-          <a href="https://emmu.edusistema.com.ar/docentes/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+          <a href="https://localhost/edusistema/public/docentes/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
 
         
             <span class="material-icons" style="vertical-align: middle;">

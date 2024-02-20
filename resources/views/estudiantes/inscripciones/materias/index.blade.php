@@ -9,7 +9,7 @@
           <div style="height: 1rem" ></div>
 
 
-          		<a href="https://emmu.edusistema.com.ar/estudiantes/inscripciones/materias/mis-inscripciones">
+          		<a href="https://localhost/edusistema/public/estudiantes/inscripciones/materias/mis-inscripciones">
 			  <button class="boton2">
 			    <span class="material-icons" style="font-size: 1.4em; vertical-align: middle;">arrow_forward</span>
 			    <span style="font-size: 19px; margin-inline: 0.4rem; vertical-align: middle;">Mis inscripciones </span>
@@ -17,7 +17,7 @@
 			 </a>
 
 
-	         <a href="https://emmu.edusistema.com.ar/estudiantes/inscripciones/materias/formulario">
+	         <a href="https://localhost/edusistema/public/estudiantes/inscripciones/materias/formulario">
 			  <button class="boton2">
 			    <span class="material-icons" style="font-size: 1.4em; vertical-align: middle;">arrow_forward</span>
 			    <span style="font-size: 19px; margin-inline: 0.4rem; vertical-align: middle;">Completar formulario </span>

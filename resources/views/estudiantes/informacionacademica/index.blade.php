@@ -15,7 +15,7 @@
           <h1 class="black">- Plan de estudio</h1>
 
 
-	         <a href="https://emmu.edusistema.com.ar/estudiantes/informacion-academica/plan-de-estudio">
+	         <a href="https://localhost/edusistema/public/estudiantes/informacion-academica/plan-de-estudio">
 			  <button class="boton2">
 			    <span class="material-icons" style="font-size: 1.4em; vertical-align: middle;">arrow_forward</span>
 			    <span style="font-size: 19px; margin-inline: 0.4rem; vertical-align: middle;">Acceder</span>

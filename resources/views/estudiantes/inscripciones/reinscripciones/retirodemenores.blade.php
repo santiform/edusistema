@@ -179,7 +179,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://emmu.edusistema.com.ar/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/public/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 </body>
 </html>

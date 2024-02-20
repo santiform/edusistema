@@ -46,7 +46,7 @@ $edad = $fechaActual->diffInYears(Carbon::parse($fechaDB));
 
 
  <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes">
+                <a href="https://localhost/edusistema/public/adm2023divox/estudiantes">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -121,7 +121,7 @@ badge
   <div class="row justify-content-center align-items-center">
     <div class="col-4">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/salud/{{$estudiante->dni}}" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/salud/{{$estudiante->dni}}" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             medical_information
           </span>
@@ -132,7 +132,7 @@ badge
 
     <div class="col-4">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes/{{ $estudiante->id }}/calificaciones" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/estudiantes/{{ $estudiante->id }}/calificaciones" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             checklist
           </span>
@@ -143,7 +143,7 @@ badge
 
     <div class="col-4">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes/{{ $estudiante->id }}/inscripciones-materias" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/estudiantes/{{ $estudiante->id }}/inscripciones-materias" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             text_snippet
           </span>
@@ -154,7 +154,7 @@ badge
 
     <div class="col-4" style="margin-top: 4rem;">
       <div class="botonfuncion  d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes/{{ $estudiante->id }}/inscripciones-examenes" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/estudiantes/{{ $estudiante->id }}/inscripciones-examenes" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             list_alt
           </span>
@@ -165,7 +165,7 @@ badge
 
     <div class="col-4" style="margin-top: 4rem;">
       <div class="botonfuncion  d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             verified_user
           </span>
@@ -178,7 +178,7 @@ badge
     @if ($edad < 18) 
     <div class="col-4" style="margin-top: 4rem;" >
       <div class="botonfuncion r d-flex flex-column align-items-center justify-content-center">
-        <a href="https://emmu.edusistema.com.ar/adm2023divox/retiro-de-menores/{{$estudiante->dni}}" class="btn">
+        <a href="https://localhost/edusistema/public/adm2023divox/retiro-de-menores/{{$estudiante->dni}}" class="btn">
           <span class="material-icons d-flex flex-column align-items-center justify-content-center">
             escalator_warning
           </span>

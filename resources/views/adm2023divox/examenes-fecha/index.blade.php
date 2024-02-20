@@ -37,7 +37,7 @@ use Carbon\Carbon;
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/administracion-seccion">
+                <a href="https://localhost/edusistema/public/adm2023divox/administracion-seccion">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -48,7 +48,7 @@ use Carbon\Carbon;
                                <div class="tituloconicono">
                           <span class="titulofuncion">Fechas de exámenes</span>
 
-                          <a href="https://emmu.edusistema.com.ar/adm2023divox/nueva-fecha-examen" style="margin-left: 0.5rem;">
+                          <a href="https://localhost/edusistema/public/adm2023divox/nueva-fecha-examen" style="margin-left: 0.5rem;">
                             <span class=" material-icons2">
                               add_circle_outline
                             </span>

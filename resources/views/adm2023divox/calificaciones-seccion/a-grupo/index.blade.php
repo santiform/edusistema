@@ -71,7 +71,7 @@ use Carbon\Carbon;
 ?>
 
 <div class="divbotonatras">
-    <a href="https://emmu.edusistema.com.ar/public/adm2023divox/calificaciones-seccion">
+    <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-seccion">
         <span class=" botonatras material-icons2">
             arrow_back_ios_new
         </span>
@@ -237,7 +237,7 @@ use Carbon\Carbon;
             // Realizar la solicitud AJAX...
             $.ajax({
                     type: 'GET',
-                    url: 'https://emmu.edusistema.com.ar/buscar-dni/' + dni,
+                    url: 'https://localhost/edusistema/public/buscar-dni/' + dni,
                     success: function (response) {
                         document.getElementById('resultado_validacion_' + index).innerHTML = response;
                     },

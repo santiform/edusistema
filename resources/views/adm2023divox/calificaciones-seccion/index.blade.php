@@ -22,7 +22,7 @@
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/">
+                <a href="https://localhost/edusistema/public/adm2023divox/">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -47,7 +47,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 ">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-a-estudiante" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-a-estudiante" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       person_add_alt
                     </span>
@@ -59,7 +59,7 @@
 
      <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 ">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-a-grupo" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-a-grupo" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       group_add
                     </span>
@@ -71,7 +71,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 ">
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/public/adm2023divox/calificaciones-a-acta-volante" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-a-acta-volante" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       fact_check
                     </span>
@@ -94,7 +94,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 ">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/editarpromo" class="btn" >
+              <a href="https://localhost/edusistema/public/adm2023divox/editarpromo" class="btn" >
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       edit
                     </span>

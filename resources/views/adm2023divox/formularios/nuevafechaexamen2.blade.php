@@ -26,7 +26,7 @@
 </style>
 
  <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/nueva-fecha-examen">
+                <a href="https://localhost/edusistema/public/adm2023divox/nueva-fecha-examen">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>

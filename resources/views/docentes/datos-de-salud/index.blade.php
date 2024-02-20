@@ -2,7 +2,7 @@
 
 <center>
 <h1>DATOS DE SALUD</h1>
-<form id="miFormulario" class="form" method="POST" action="https://emmu.edusistema.com.ar/docentes/datos-de-salud/guardar-datos" enctype="multipart/form-data">
+<form id="miFormulario" class="form" method="POST" action="https://localhost/edusistema/public/docentes/datos-de-salud/guardar-datos" enctype="multipart/form-data">
     @csrf
 
     <div class="formularioestudiantes" style="padding-top: -2rem;" >
@@ -218,7 +218,7 @@
 <div style="height: 1rem" ></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://emmu.edusistema.com.ar/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/public/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
 </body>
 </html>

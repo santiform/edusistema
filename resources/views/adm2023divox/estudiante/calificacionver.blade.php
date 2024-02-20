@@ -32,7 +32,7 @@ use Carbon\Carbon;
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/estudiantes/{{ $estudiante->id }}/calificaciones">
+                <a href="https://localhost/edusistema/public/adm2023divox/estudiantes/{{ $estudiante->id }}/calificaciones">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -43,7 +43,7 @@ use Carbon\Carbon;
                                <div class="tituloconicono">
                           <span class="titulofuncion">Calificacion individual de {{ $calificacion->apellido }}, {{ $calificacion->nombre }}</span>
 
-                          <a href="https://emmu.edusistema.com.ar/adm2023divox/calificaciones-a-estudiante" style="margin-left: 0.5rem;">
+                          <a href="https://localhost/edusistema/public/adm2023divox/calificaciones-a-estudiante" style="margin-left: 0.5rem;">
                             <span class=" material-icons2">
                               add_circle_outline
                             </span>

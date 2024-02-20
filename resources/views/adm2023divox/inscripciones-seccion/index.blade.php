@@ -22,7 +22,7 @@
 
 
                <div class="divbotonatras">
-                <a href="https://emmu.edusistema.com.ar/adm2023divox/">
+                <a href="https://localhost/edusistema/public/adm2023divox/">
                     <span class=" botonatras material-icons2">
                       arrow_back_ios_new
                     </span>
@@ -47,7 +47,7 @@
 
     <div class="col-2"> 
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion/estadisticas" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion/estadisticas" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       analytics
                     </span>
@@ -58,7 +58,7 @@
 
     <div class="col-2">
       <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion/links-para-compartir" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion/links-para-compartir" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       link
                     </span>
@@ -69,7 +69,7 @@
 
     <div class="col-2">            
               <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://emmu.edusistema.com.ar/adm2023divox/inscripciones-seccion/actas-volante" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/inscripciones-seccion/actas-volante" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       article
                     </span>

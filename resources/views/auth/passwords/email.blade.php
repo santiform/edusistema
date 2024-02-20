@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
-    <link rel="icon" type="image/webp" href="https://emmu.edusistema.com.ar/resources/img/logo.webp">
+    <link rel="icon" type="image/webp" href="https://localhost/edusistema/public/resources/img/logo.webp">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" type="text/css" href="https://emmu.edusistema.com.ar/resources/librerias/style.css">
+    <link rel="stylesheet" type="text/css" href="https://localhost/edusistema/public/resources/librerias/style.css">
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
       
@@ -41,7 +41,7 @@
        body {
 
 
-  background-image: url('https://emmu.edusistema.com.ar/resources/img/backgroundlogin.jpg');
+  background-image: url('https://localhost/edusistema/public/resources/img/backgroundlogin.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
