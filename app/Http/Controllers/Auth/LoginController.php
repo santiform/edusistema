@@ -27,7 +27,7 @@ class LoginController extends Controller
         } elseif ($user->tipo === 'estudiante') {
             return redirect()->route('index.estudiantes');
         } elseif ($user->tipo === 'profesor') {
-            return redirect()->route('index.profesores');
+            return redirect()->route('index.docentes');
         } else {
             // Si el tipo de usuario no coincide con ninguno de los casos anteriores,
             // redirige a una ruta por defecto o muestra un mensaje de error

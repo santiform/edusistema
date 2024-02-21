@@ -55,7 +55,7 @@ use Carbon\Carbon;
 
 <div class="formularioestudiantes" style="padding-top: -2rem;">
 
-    <form method="POST" action="/inscripciones-examenes-agregar/enviar" role="form" enctype="multipart/form-data">
+    <form method="POST" action="../inscripciones-examenes-agregar/enviar" role="form" enctype="multipart/form-data">
         @csrf
 
         <div class="divcentrado" style="margin-top: -2.3rem;">

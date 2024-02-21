@@ -1,25 +1,23 @@
 @include('docentes.includes.headerdocentes')
   
 
-          <h1>Bienvenido/a</h1>
+          <a href="https://localhost/edusistema/public/docentes/mis-catedras" ><h1>Listado de Cátedras</h1>
 
-          <p> En la sección superior, podés cerrar la sesión.
-                En la sección inferior tenés acceso a las funciones de
-                la plataforma. </p>
+          <p> Un listado de con las cátedras que tenés asignadas. </p></a>
 
           <br>
 
 
-          <h1>Inscripciones</h1>
+          <a href="https://localhost/edusistema/public/docentes/asistencia" ><h1>Asistencia</h1>
 
-          <p> En esta función encontrarás los formularios y 
-            resultados de tus inscripciones a materias y
-            exámenes. </p>
+          <p> Herramienta para cargar la asistencia de tus cátedras. </p></a>
 
             <br>
 
 
-          <h1>Historial Académico</h1>
+          <!-- agregar esta función cuando corresponda... 
+
+          <h1>Calificaciones (Cuatrimestrales)</h1>
 
           <p> En esta función encontrarás tus materias en curso,
                 y tus calificaciones. </p>
@@ -27,11 +25,12 @@
             <br>
 
 
-          <h1>Información Académica</h1>
+          -->
 
-          <p> En esta función encontrarás información pertinente
-                a la institución. Como calendario académico, planes
-                de estudio y programas de materias. </p>
+
+          <a href="https://docs.google.com/spreadsheets/d/1heNyFi5SujAPTWot1fI95SFx4vB_lVlo/edit#gid=1992274734" target="blank" ><h1>Modificaciones Docentes</h1>
+
+          <p> Planilla de Google Drive donde volcás tus ausencias, previamente concensuadas con dirección. </p></a>
 
 
 

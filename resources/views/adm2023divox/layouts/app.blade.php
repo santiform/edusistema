@@ -398,7 +398,8 @@ $(document).ready(function() {
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
-<script src="https://localhost/edusistema/public/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://localhost/edusistema/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 
 
 

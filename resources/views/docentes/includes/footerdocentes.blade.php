@@ -1,10 +1,8 @@
 
 
-<div class="sepfooter" ></div>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
 <script src="https://localhost/edusistema/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
 
 <!-- con este script de abajo hacemos que no se peudan recibir minúsculas ni letras con tilde, utilizando jquery -->
 <script>

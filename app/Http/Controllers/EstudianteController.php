@@ -299,7 +299,7 @@ public function inscripcionesMaterias($id)
     ->where('inscripciones_materias.dni', '=', $dni)
     ->get();
 
-    return view('adm2023divox.estudiante.inscripcionmaterias', compact('inscripciones','estudiante'));
+    return view('inscripciones-materias.add', compact('inscripciones','estudiante'));
 }
 
 
@@ -349,7 +349,7 @@ public function inscripcionMateriasEliminar(Request $request, $idEstudiante, $id
 
         DB::table('inscripciones_materias')->where('id', $idInscripcion)->delete();
 
-        return Redirect::route('adm2023divox.estudiante.inscripcionmaterias', ['id' => $idEstudiante])->with('borrar', 'ok');
+        return Redirect::route('inscripciones-materias.add', ['id' => $idEstudiante])->with('borrar', 'ok');
     }
 
 
@@ -419,7 +419,8 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
         $datos = request('catedra'); 
 
         if(empty($datos)){
-            return redirect()->route('materiasForm')->with('noCatedra', 'ok');
+           return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCatedra', 'ok');
+
         }
 
         // Divide el valor en dos partes utilizando el carácter "|"
@@ -434,7 +435,8 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
 
         if ($inscripcionExistente) {
             // El estudiante ya está inscrito en esa catedra
-            return redirect()->route('materiasForm')->with('yaInscripto', 'ok');
+            return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('yaInscripto', 'ok');
+
         } 
 
 
@@ -475,7 +477,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -513,7 +515,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -552,7 +554,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -591,7 +593,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -643,7 +645,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -691,7 +693,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'condicion' => $condicion,
                     ]);
 
-                        return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                        return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                     } else {
                         return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
                     }
@@ -711,7 +713,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                    return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                    return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                 }
 
                 $materiasAprobadas = DB::table('calificaciones')
@@ -740,7 +742,7 @@ public function inscripcionMateriasAgregarEnviar(Request $request)
                         'created_at' => now(),
                     ]);
 
-                   return redirect()->route('misInscripcionesMaterias')->with('inscValidada', 'ok');
+                   return redirect()->route('inscripciones-materias.add')->with('inscValidada', 'ok');
                 } else {
                     // El estudiante no cumple con las correlativas, mostrar el error
                    return redirect()->route('inscripciones-materias.add', ['dni' => $dni])->with('noCorrelativas', 'ok');
@@ -1441,7 +1443,7 @@ public function inscripcionMateriasAgregarEnviarDirecto(Request $request)
                     ]);
                   
 
-           return redirect()->route('adm2023divox.estudiante.inscripcionmaterias', ['id' => $idEstudiante->id])->with('inscValidada', 'ok');
+           return redirect()->route('inscripciones-materias.add', ['id' => $idEstudiante->id])->with('inscValidada', 'ok');
                 
 
 

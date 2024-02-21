@@ -412,6 +412,19 @@ Route::group(['middleware' => ['auth']], function () {
                 Route::delete('adm2023divox/estudiantes/calificaciones/{id}/eliminar', 'App\Http\Controllers\FormController@calificacionEliminar')->middleware('auth')->name('calificacionEliminar');
 
 
+
+
+
+
+                Route::get('adm2023divox/asistencia-general', [App\Http\Controllers\AsistenciaController::class, 'index'])
+                        ->name('asistenciaAdmGeneral')
+                        ->middleware('auth');  
+
+
+
+
+
+
                 });
 
 
@@ -485,13 +498,13 @@ Route::group(['middleware' => ['auth']], function () {
 
 
                         /*formulario para inscripcion a materias*/
-                        /*Route::get('/estudiantes/inscripciones/materias/formulario',
+                        Route::get('/estudiantes/inscripciones/materias/formulario',
                             [ParteEstudianteController::class, 'inscripcionMaterias'])->middleware('auth')
-                        ->name('materiasForm');*/
+                        ->name('materiasForm');
 
-                        Route::get('/estudiantes/inscripciones/materias/formulario', function () {
+                        /*Route::get('/estudiantes/inscripciones/materias/formulario', function () {
                             return view('errores.estudiantes.formulariodesactivado');
-                        })->middleware('auth');
+                        })->middleware('auth');*/
 
                         Route::post('/estudiantes/inscripciones/materias/formulario/guardar',
                             [ParteEstudianteController::class, 'inscripcionMaterias2'])->middleware('auth');
@@ -621,6 +634,38 @@ Route::group(['middleware' => ['auth']], function () {
                         
                         Route::post('/docentes/datos-de-salud/guardar-datos',
                             [FormController::class, 'datosSaludDocentes']);
+
+
+
+
+                        Route::get('/docentes/mis-catedras',
+                            [ParteDocenteController::class, 'misCatedras'])
+                        ->name('misCatedras');
+
+
+
+
+
+
+                        Route::get('/docentes/asistencia', function () {
+                            return view('docentes.asistencia.index');
+                        })->name('asistencia')->middleware('auth');
+
+                        Route::get('/docentes/asistencia-cargar',
+                            [ParteDocenteController::class, 'asistenciaCargar1'])
+                        ->name('asistenciaCargar1');
+
+                        Route::post('/docentes/asistencia-cargar2',
+                            [ParteDocenteController::class, 'asistenciaCargar2'])
+                        ->name('asistenciaCargar2');
+
+                        Route::post('/docentes/asistencia-cargar-guardar',
+                            [ParteDocenteController::class, 'asistenciaCargarGuardar'])
+                        ->name('asistenciaCargarGuardar');
+
+
+
+
 
                 });
 

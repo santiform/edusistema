@@ -50,7 +50,7 @@ use Carbon\Carbon;
 
 <div class="formularioestudiantes" style="padding-top: -2rem;">
 
-    <form method="POST" action="/inscripciones-materias-agregar/enviar" role="form" enctype="multipart/form-data">
+    <form method="POST" action="../inscripciones-materias-agregar/enviar" role="form" enctype="multipart/form-data">
         @csrf
 
         <div class="divcentrado" style="margin-top: -2.3rem;">
@@ -141,9 +141,9 @@ $(document).ready(function(){
                  Swal.fire({
           
           icon: 'error',
-          iconColor: '#002D18',
+         iconColor: '#A32226',
           color: '#F4F4F4',
-          background: '#006D55',
+          background: '#E45D58',
           title: '¡No seleccionaste ninguna Cátedra!',
           showConfirmButton: false,
           timer: 2500
@@ -163,7 +163,7 @@ $(document).ready(function(){
                  Swal.fire({
           
           icon: 'error',
-         iconColor: '#A32226',
+        iconColor: '#A32226',
           color: '#F4F4F4',
           background: '#E45D58',
           title: '¡El estudiante no posee las correlativas necesarias!',
@@ -183,10 +183,10 @@ $(document).ready(function(){
                  Swal.fire({
           
           icon: 'error',
-          iconColor: '#002D18',
+          iconColor: '#A32226',
           color: '#F4F4F4',
-          background: '#006D55',
-          title: '¡Ya estás inscripto/a en esta Materia, no podés inscribirte más de una vez!',
+          background: '#E45D58',
+          title: '¡Este estudiante ya está inscripto/a en esta Materia, no puede inscribirse más de una vez!',
           showConfirmButton: false,
           timer: 6000
         })

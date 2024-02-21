@@ -1,8 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.estudiantesLibres {
+  background-color: #FFD7D7;
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  margin: 0 auto;
+  margin-block: 4rem;
+  border: solid 2.5px red;
+  box-shadow: 0 0 30px 4px rgba(255, 0, 0, 0.6);
+}
+
+
  .botondescargar {
         display: flex;
         justify-content: flex-start; /* Alinea el contenido a la izquierda */
         margin-top: -1.15rem;
     }
+
+
+.tabla-asistencia th,
+.tabla-asistencia td {
+  background-color: #00195E!important;
+  border: none!important;
+  padding: 0.4rem!important;
+}
+
+.tabla-asistencia th {
+  border-bottom: solid 1px white!important;
+  font-size: 19px!important;
+}
+
+
+.tabla-asistencia {
+  width: 107.67%; /* Establecer la tabla para que ocupe todo el ancho del contenedor */
+  margin-left: -2rem;
+
+  
+}
+
+.div-asistencia {
+  width: 100%!important;
+}
+
+
 
  .botondescargar button {
         display: flex;
@@ -21,6 +64,10 @@
     }
 
 
+
+a > p {
+  color: black!important;
+}
 
 
 .linkmateria {
@@ -68,6 +115,11 @@
 
 }
 
+.titulo {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: black!important;
+}
 
 .inputfuncion {
 
@@ -499,13 +551,21 @@ body {
     max-width: 100%; /* El div no excederá el ancho de la pantalla */
   }
 
+
+.tabla-asistencia {
+  width: 122%; /* Establecer la tabla para que ocupe todo el ancho del contenedor */
+  margin-left: -2rem;
+
+  
+}
+
+
 }
 
 
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 
