@@ -421,7 +421,17 @@ Route::group(['middleware' => ['auth']], function () {
                         ->middleware('auth');  
 
 
+                Route::get('adm2023divox/asistencia/{id}/edit', [App\Http\Controllers\AsistenciaController::class, 'edit'])
+                        ->name('asistencia.edit')
+                        ->middleware('auth');   
 
+                Route::put('adm2023divox/asistencia/{id}/update', [App\Http\Controllers\AsistenciaController::class, 'update'])
+                        ->name('asistencia.update')
+                        ->middleware('auth');   
+
+                Route::delete('adm2023divox/asistencia/{id}/delete', [App\Http\Controllers\AsistenciaController::class, 'destroy'])
+                        ->name('asistencia.destroy')
+                        ->middleware('auth');              
 
 
 

@@ -213,7 +213,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 "> 
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://localhost/edusistema/public/adm2023divox/administracion/emails" target="blank" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion/emails" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       contact_mail
                     </span>
@@ -224,7 +224,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
          <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://localhost/edusistema/public/adm2023divox/administracion/redes-sociales" target="blank" class="btn">
+              <a href="https://localhost/edusistema/public/adm2023divox/administracion/redes-sociales" class="btn">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       phone_android
                     </span>
@@ -235,7 +235,14 @@
 
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">     
-         
+         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
+              <a href="https://localhost/edusistema/public/adm2023divox/asistencia-general" class="btn">
+                    <span class="material-icons d-flex flex-column align-items-center justify-content-center">
+                      featured_play_list
+                    </span>
+                    <p style="white-space: nowrap;">Asistencia</p>
+              </a>
+        </div>
     </div>
 
   

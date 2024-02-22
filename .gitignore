@@ -3,7 +3,8 @@
 /public/adm2023divox/build
 /public/adm2023divox/hot
 /public/adm2023divox/storage
-/storage/*.key
+/storage/app/formularios/datos-de-salud
+/storage/app/formularios/retiro-de-menores
 /vendor
 .env
 .env.backup

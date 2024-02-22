@@ -47,7 +47,7 @@
 
     <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2 "> 
         <div class="botonfuncion d-flex flex-column align-items-center justify-content-center">
-              <a href="https://www.canva.com/design/DAF79qJtwk8/8bP7PkQi6a4w2MNjtwEOkA/edit" class="btn">
+              <a href="https://www.canva.com/design/DAF79qJtwk8/8bP7PkQi6a4w2MNjtwEOkA/edit" class="btn" target="blank">
                     <span class="material-icons d-flex flex-column align-items-center justify-content-center">
                       event_available
                     </span>
